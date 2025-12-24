@@ -77,10 +77,19 @@ a:hover {
   border-radius: 4px;
 }
 
-.header {
-  position: relative;
-  height: 180px;
-  margin-bottom: 20px;
+.header-bg {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: 100vw;
+  height: 140px;
+
+  background: url("bg.png") center / cover no-repeat;
+
+  filter: blur(8px);
+  z-index: 1;
 }
 
 
