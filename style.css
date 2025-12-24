@@ -15,29 +15,6 @@ body {
   text-align: center;
 }
 
-/* ===== ヘッダー ===== */
-.header {
-  position: relative;
-  height: 240px;   /* 200 → 240 */
-  margin-bottom: 20px;
-  overflow: hidden;
-}
-
-/* 背景 */
-.header-bg {
-  position: absolute;
-  top: -20px;
-  left: 50%;
-  transform: translateX(-50%);
-
-  width: 100vw;
-  height: 250px;
-
-  background: url("bg.png") center / cover no-repeat;
-  filter: blur(6px);
-  z-index: 1;
-}
-
 /* アイコン */
 .icon {
   position: relative;
